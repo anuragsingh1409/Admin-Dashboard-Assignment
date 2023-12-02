@@ -174,7 +174,7 @@ const App = () => {
       <Search
         placeholder="Search by name, email, or role"
         onSearch={handleSearch}
-        style={{ marginBottom: 16 }}
+        style={{ marginBottom: 16, width: '30%',textAlign: 'center', marginLeft:'35%'}}
       />
       <div style={{ marginBottom: 16}}>
         <Button
